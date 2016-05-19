@@ -1,0 +1,77 @@
+/* Logo */
+.header img {
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin-top: -160px;
+  margin-left: 10px;
+  }
+/* Bar Menu */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(51, 51, 51, 0.23);
+  margin-top: 170px;
+}
+
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgba(140, 93, 102, 0.36);
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.home {
+  background-color: rgba(255, 0, 0, 0.37);
+}
+
+/* Text */
+
+h1 {
+  text-align: center;
+  color: red;
+  padding: 10px;
+  background-color: rgba(76, 175, 80, 0.43);
+  border-top: 60px;
+
+}
+h3 {
+  text-align: center;
+  margin-left: 300px;
+  margin-right: 300px;
+}
+h4 {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+/* Imagine */
+img {
+  width: 652px;
+  height: 367px;
+  margin-left: 25%;}
+
+
+
+
+

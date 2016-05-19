@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <div class="header">
+        <img src="images/logo.png" alt="logo" />
+
+
+    </div>
+    <meta charset="utf-8" />
+    <style>
+        body {
+            background-image: url("images/back.jpg");
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta name ="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+
+<!-- Menu -->
+<div id='cssmenu'>
+    <ul>
+        <li class='active'><a href='index.html'>Home</a></li>
+        <li><a href='news.html'>News</a></li>
+        <li><a href='contact.html'>Contact</a></li>
+        <li style="float:right"><a class="home" href ="subscribe.html">Subscribe</a> </li>
+    </ul>
+</div>
+
+<!-- Scrolling Time -->
+<marquee behavior="alternate" bgcolor="yellow" loop="-1" width="20%">
+    <i>
+        <font color="blue">
+            Current date & time is :
+            <strong>
+                <span id="date-time"></span>
+            </strong>
+        </font>
+    </i>
+</marquee>
+<script language="javascript">
+    var today = new Date();
+    document.write(today);
+</script>
+
+ <!--<div style="background-color:rgba(255, 255, 255, 0.42); color:black; padding:10px; border-bottom: 60px solid rgba(24, 12, 31, 0.43);  ">
+
+
+    <div id="Subscribe"> <fieldset style="width:30%"><legend>Subscribe Form</legend> <table border="0">
+        <tr> <form method="POST" action="subscribe.php">
+            <td>Name</td><td> <input type="text" name="username"></td> </tr>
+        <tr> <td>Email</td><td> <input type="text" name="email"></td> </tr>
+
+        <tr> <td><input id="button" type="submit" name="submit" value="Submit" ></td> </tr>
+        </form>
+    </table>
+    </fieldset>
+    </div> -->
+<h1>Subscribe Form</h1>
+<div id="Subscribe"> <fieldset style="margin-top: 5%; margin-left: 33%; width:30%"> <table border="0">
+<form action="subscribe.php" method="post" >
+    Name : <input  type="text" name="username">
+    <br/>
+    Email : <input type="text" name="email">
+    <br/>
+    <input type="submit" value="Insert">
+</form>
+
+
+
+
+</body>
+</html>
